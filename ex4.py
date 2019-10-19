@@ -1,6 +1,7 @@
 from machine import Pin
 from time import sleep
 
+cont = 0
 def muda(v):
   global cont
   cont += 1
